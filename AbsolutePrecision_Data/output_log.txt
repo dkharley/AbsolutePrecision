@@ -1,0 +1,37 @@
+Initialize engine version: 4.3.4f1 (e444f76e01cd)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 9.0c [nvd3dum.dll 9.18.13.697]
+    Renderer: NVIDIA GeForce 320M
+    Vendor:   NVIDIA
+    VRAM:     1048 MB (via DXGI)
+    Caps:     Shader=30 DepthRT=1 NativeDepth=1 NativeShadow=1 DF16=0 INTZ=1 RAWZ=0 NULL=1 RESZ=0 SlowINTZ=0
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Tanner\Desktop\precision\AbsolutePrecision_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Tanner\Desktop\precision\AbsolutePrecision_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Tanner\Desktop\precision\AbsolutePrecision_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Tanner\Desktop\precision\AbsolutePrecision_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Tanner\Desktop\precision\AbsolutePrecision_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading C:\Users\Tanner\Desktop\precision\AbsolutePrecision_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
+Platform assembly: C:\Users\Tanner\Desktop\precision\AbsolutePrecision_Data\Managed\Glow11.dll (this message is harmless)
+Loading C:\Users\Tanner\Desktop\precision\AbsolutePrecision_Data\Managed\Glow11.dll into Unity Child Domain
+Platform assembly: C:\Users\Tanner\Desktop\precision\AbsolutePrecision_Data\Managed\ProBuilderCore.dll (this message is harmless)
+Loading C:\Users\Tanner\Desktop\precision\AbsolutePrecision_Data\Managed\ProBuilderCore.dll into Unity Child Domain
+Platform assembly: C:\Users\Tanner\Desktop\precision\AbsolutePrecision_Data\Managed\ProBuilderMeshOps.dll (this message is harmless)
+Loading C:\Users\Tanner\Desktop\precision\AbsolutePrecision_Data\Managed\ProBuilderMeshOps.dll into Unity Child Domain
+Platform assembly: C:\Users\Tanner\Desktop\precision\AbsolutePrecision_Data\Managed\ProCore.dll (this message is harmless)
+Loading C:\Users\Tanner\Desktop\precision\AbsolutePrecision_Data\Managed\ProCore.dll into Unity Child Domain
+Platform assembly: C:\Users\Tanner\Desktop\precision\AbsolutePrecision_Data\Managed\SixBySeven.dll (this message is harmless)
+Loading C:\Users\Tanner\Desktop\precision\AbsolutePrecision_Data\Managed\SixBySeven.dll into Unity Child Domain
+- Completed reload, in  0.109 seconds
+<RI> Initializing input.
+<RI> Input initialized.
+desktop: 1280x800 60Hz; virtual: 1280x800 at 0,0
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:InternalGetGameObject ()
+  at UnityEngine.Component.get_gameObject () [0x00000] in <filename unknown>:0 
+  at UIDrawCall.Destroy (.UIDrawCall dc) [0x00000] in <filename unknown>:0 
+  at UIPanel.OnDisable () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
